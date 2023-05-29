@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body{
+    background-color: #1e1f23;
+}
+header{
+    border: solid #1e1f23 20px;
+    border-top: solid #4d6d63 20px;
+    border-bottom: solid #4d6d63 20px;
+    margin: 30px 200px 30px 200px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+
+}
+form{
+    font-family: 'Roboto', sans-serif;   
+    
+}
+fieldset{
+    background-color: #a6c1b9;
+    margin: 30px 200px 30px 200px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;   
+}
+fieldset:focus-within{
+    background-color: #536b63;
+}
+legend{
+    font: bold 13px 'Roboto', sans-serif;    
+    text-align: left;
+    color: white;
+    background-color: #2c3d37;    
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;    
+}
+.abajo{    
+    display: block;
+    margin: 10px;
+    
+}
+.ancho{    
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+.derecha{
+    text-align: right;
+}
+.ancho2{
+    width: 525px;
+    height: 25px;
+}
+input{
+    border-radius: 5px;
+}
+input:focus{
+    background-color: #2c3d37;
+}
+span{
+    font: bold;
+    font-size: medium;
+}
+label{
+    padding: 5px;
+    margin-bottom: 0;
+}
+textarea{
+    margin: 0;
+    width: 525px;
+    height: 100px; 
+    border-radius: 4px;  
+}
+textarea:focus{
+    background-color: #2c3d37;
+}
+br{
+    margin: 0;
+    padding: 0;
+}
+#separador{ 
+    border-bottom: dotted 10px  #a6c1b9;
+    margin-left: 500px;
+    margin-right: 500px;   
+}
+.izquierda{
+    text-align: left;
+}
+div{
+    margin: 30px 200px 30px 200px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    color: #fff ;
+}
+button{
+    background-color: #2c3d37;
+    color: #a6c1b9;
+    border-radius: 4px;
+    border: none;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-self: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;    
+}
+button:hover{
+    background-color:  #a6c1b9;
+    color: black;
+}
+.centro{
+    display: flex;    
+    justify-content: center;     
+}

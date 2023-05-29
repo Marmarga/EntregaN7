@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega N6</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    
+</head>
+<body>
+    <header>
+        <h1>Vení al GYM! 💪 </h1>
+    </header>    
+    <main>
+        <form action="" method="post">
+            
+            <fieldset>
+                <legend><span>D</span>atos <span>P</span>ersonales <span>👀</span></legend>
+                <label class="abajo" for="nombre">Nombre:*</label>
+                <input class="ancho2" id="nombre" type="text" required ><br>
+                <label class="abajo" for="apellido">Apellido:*</label>
+                <input class="ancho2" id="apellido" type="text" required><br>
+                <label class="abajo" for="documento">Documento:*</label>
+                <input class="ancho2" id="documento" type="number" required><br>
+                <label class="abajo" for="nacionalidad">Nacionalidad:*</label>
+                <select  class="ancho" name="paises" id="nacionalidad"><option value="" disabled selected>-Seleccionar-</option>
+                <option value="argentina">Argentina</option><option value="brasil">Brasileña</option><option value="españa">Española</option><option value="italia">Italiana</option> 
+                </select><br>
+                <label class="abajo">Contanos un poco de vos...</label>
+                <textarea  cols="10" rows="1"></textarea><br>
+                <label class="abajo" for="opciones">Sexo:*</label><br>            
+                <input type="radio" name="opciones" value="femenino" required>
+                <label>Femenino</label>
+                <input type="radio" name="opciones" value="Masculino" required>
+                <label>Masculino</label>
+                <input type="radio" name="opciones" value="otro" required>
+                <label>Otro</label>                           
+            </fieldset>             
+            <div></div>          
+                <fieldset>
+                    <legend><span>D</span>atos de <span>C</span>ontactos</legend>
+                    <label class="abajo" for="telefono">Telefono:</label>
+                    <input class="derecha ancho2" type="text" name="telefono" placeholder="Código de area y número"><br>
+                    <label class="abajo" for="correo">Dirección de correo electronico:*</label>
+                    <input class="derecha ancho2" type="email" name="correo" placeholder="Ej: mail@gmail.com" required>
+                </fieldset>
+            <div id="separador" ></div>
+            <fieldset class="izquierda">
+                <legend><span>A</span>ctividades</legend>
+                <p>Por favor, indicá cuáles son las actividades que te interesan</p>
+                <p>Sede Palermo:</p>
+                <input type="checkbox" name="basquet" value="basquet"><label>Básquet</label>
+                <input type="checkbox" name="boxeo" value="boxeo"><label>Boxeo</label>
+                <input type="checkbox" name="futbol" value="futbol"><label>Fútbol</label>
+                <input type="checkbox" name="tenis" value="tenis"><label>Tenis</label>
+                <p>Sede Rosario:</p>
+                <input type="checkbox" name="basquet" value="basquet"><label>Básquet</label>
+                <input type="checkbox" name="boxeo" value="boxeo"><label>Boxeo</label>
+                <input type="checkbox" name="futbol" value="futbol"><label>Fútbol</label>
+                <input type="checkbox" name="tenis" value="tenis"><label>Tenis</label>
+            </fieldset>
+            <div>
+                <input type="checkbox" name="condiciones" value="condiciones" required><label>Acepto las condiciones*</label><br>
+                <input type="checkbox" name="novedades" value="novedades"><label>Deseo recibir novedades</label>
+                <p>*: Campo obligatorio.</p>                
+            </div>
+            <div class="centro">
+                <button type="submit">Iniciar Afiliación</button>
+                <button type="reset">Restablecer</button>
+                <h2>hola</h2>
+            </div>
+        </form>
+        
+    </main>
+    
+</body>
+</html>

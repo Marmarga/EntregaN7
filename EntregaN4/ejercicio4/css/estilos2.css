@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,200;1,700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Mario-Kart-2.jpg);
+    font-family: Titillium+Web;
+    color: rgb(46, 27, 216) ;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+
+h1{
+    font-size: 100px;
+    background-color: wheat ;
+    border: 15px dashed white;
+    border-radius: 40px;
+}
+img{
+    border: 5px solid rgb(10, 212, 70);
+    border-radius: 100px;
+}
+footer{
+    text-decoration: none;
+    background-color: black;
+    color: yellow;
+    border: 4px dashed green;
+}
+footer:hover{
+    background-color: brown;
+}

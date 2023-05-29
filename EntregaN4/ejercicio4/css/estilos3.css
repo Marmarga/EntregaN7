@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,200;1,700&display=swap');
+
+body{
+    background-image: url(../img/Mortal_Kombat_1.jpg);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    border: 5px dashed whitesmoke;
+    border-radius: 1000px;
+    margin: 40px;
+        
+}
+footer{
+    text-decoration: none;
+    background-color: crimson;
+    color: wheat;    
+    font-size: 40px;       
+}
+footer:hover{
+    background-color: pink;
+}
